@@ -154,7 +154,7 @@
       </p> -->
       <h2 class="subtitle has-text-centered is-size-6" style="margin-top:0.5cm;">
         Comparison of training-free methods, prompt adaptation techniques, and methods
-        from our proposed In-Context Optimization framework (<i>CT-Prompt, CT-KV, Test-Time Training</i>)
+        from our proposed In-Context Optimization framework (<i>Test-Time Training, CT-Prompt, CT-KV</i>)
         on solving tasks from a split of <a href="https://arxiv.org/pdf/2110.15943" target="_blank">UnifiedQA and CrossFit</a>. <br>
         <span style="display: inline-block; width: 8px; height: 8px; background-color: #2563eb; border-radius: 50%; margin: 0 2px;"></span> are baselines,
         <span style="color: #dc2626; font-size: 10px;">★</span> are our methods,
@@ -230,7 +230,7 @@
         <p>
           - Top task: the model's prediction at iteration 0 (equivalent to
           <a href="https://arxiv.org/pdf/2005.14165" target="_blank">In-Context Learning</a>) shows a strong bias
-          toward filling orange-border squares with yellow. As CT-KV training progresses, the model gradually learns to fill
+          toward filling orange-border squares with yellow. As <i>CT-KV</i> training progresses, the model gradually learns to fill
           each orange-border square with the correct color.
         </p>
         <div style="height: 0.7rem;"></div>
@@ -250,12 +250,12 @@
     <div class="hero-body" style="padding-top: 3rem; padding-bottom: 0rem;">
       <h2 class="title is-3">Quantitative Evaluation</h2>
       <p>
-        We evaluate Context Tuning against training-free, prompt-based adaptation, and <a href="https://arxiv.org/pdf/2411.07279" target="_blank">Test-Time Training</a> methods on a diverse set of challenging datasets on <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank">GPT-2</a> and <a href="https://arxiv.org/pdf/2407.21783" target="_blank">Llama 3 models</a>.
+        We evaluate <i>Context Tuning</i> against training-free, prompt-based adaptation, and <a href="https://arxiv.org/pdf/2411.07279" target="_blank">Test-Time Training</a> methods on a diverse set of challenging datasets with <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank">GPT-2</a> and <a href="https://arxiv.org/pdf/2407.21783" target="_blank">Llama 3 models</a>.
       </p>
       <br>
       <h2 class="title is-4" style="margin-bottom: 1rem;">Benchmarks</h2>
               <p>
-          We show one test pair from <a href="https://arxiv.org/pdf/2206.04615" target="_blank">BBH</a>,
+          We show a test pair from <a href="https://arxiv.org/pdf/2206.04615" target="_blank">BBH</a>,
           <a href="https://arxiv.org/pdf/2110.15943" target="_blank">NLP-LR</a>,
           and <a href="https://arxiv.org/pdf/2009.03300" target="_blank">MMLU</a> each, and 3 demonstration pairs
           followed by a test pair from <a href="https://arxiv.org/pdf/1911.01547" target="_blank">ARC</a>.
@@ -267,7 +267,7 @@
       <br>
       <h2 class="title is-4" style="margin-bottom: 1rem;">Results</h2>
       <p>
-        Based on our quantitative comparison of <i>Context Tuning</i> and Baselines, we find that the <i>CT-KV</i>
+        Based on our quantitative comparison of <i>Context Tuning</i> and baselines, we find that the <i>CT-KV</i>
         variant of <i>Context Tuning</i> significantly outperforms Zero-Shot Prompting,
         <a href="https://arxiv.org/pdf/2005.14165" target="_blank">In-Context Learning</a>,
         <a href="https://arxiv.org/pdf/2104.08691" target="_blank">Prompt Tuning</a>, and
