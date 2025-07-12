@@ -72,7 +72,7 @@
                     <a href="https://rteehas.github.io/" target="_blank">Ryan Teehan</a>,
                   </span>
                   <span class="author-block">
-                    <a href="https://context-tuning.github.io/" target="_blank">Zhenbang Yang</a>,
+                    <a href="https://www.linkedin.com/in/zhenbang-yang-625b6a2a4/" target="_blank">Zhenbang Yang</a>,
                   </span>
                   <span class="author-block">
                     <a href="https://renmengye.github.io" target="_blank">Mengye Ren</a>
@@ -155,7 +155,7 @@
       <h2 class="subtitle has-text-centered is-size-6" style="margin-top:0.5cm;">
         Comparison of training-free methods, prompt adaptation techniques, and methods
         from our proposed In-Context Optimization framework (<i>CT-Prompt, CT-KV, Test-Time Training</i>)
-        on solving tasks from <a href="https://arxiv.org/pdf/2110.15943" target="_blank">UnifiedQA and CrossFit</a>. <br>
+        on solving tasks from a split of <a href="https://arxiv.org/pdf/2110.15943" target="_blank">UnifiedQA and CrossFit</a>. <br>
         <span style="display: inline-block; width: 8px; height: 8px; background-color: #2563eb; border-radius: 50%; margin: 0 2px;"></span> are baselines,
         <span style="color: #dc2626; font-size: 10px;">★</span> are our methods,
         <b>bolded</b> methods attain the best performance-efficiency tradeoff.
@@ -203,7 +203,7 @@
           \(\{(x_i, y_i)\}_{i=1}^k\), then trains it to solve each pair. To prevent the model from simply retrieving the demonstration
           pair from the prefix, Leave-One-Out Masking prevents the model from attending to \(K_i, V_i\) when solving pair \(i\). No model weight updates are required!<br>
           <div style="height: 0.7rem;"></div>
-        - <i>Generation</i> (right) conditions on all optimized prefixes \(\{K_i^*, V_i^*\}_{i=1}^k\) to solve query \(x_q\).
+        - Generation (right) conditions on all optimized prefixes \(\{K_i^*, V_i^*\}_{i=1}^k\) to solve the query \(x_q\).
       </p>
       <br>
       <p style="text-align: center;">
@@ -226,7 +226,6 @@
           iterations 0, 50, 100, 150, 200. We color-code correct predictions in <span style="color: #22c55e;">green</span> and incorrect
           predictions in <span style="color: #ef4444;">red</span>.
         </p>
-        <br>
         <div style="height: 0.7rem;"></div>
         <p>
           - Top task: the model's prediction at iteration 0 (equivalent to
@@ -240,7 +239,7 @@
         </p>
         <br>
       <p style="text-align: center;">
-        <img src="static/images/supp_arc.png" alt="method figure" width="1000" height=auto>
+        <img src="static/images/supp_arc.png" alt="arc samples" width="1000" height=auto>
       </p>
     </div>
   </div>
